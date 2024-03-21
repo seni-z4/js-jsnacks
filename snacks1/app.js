@@ -19,8 +19,18 @@ console.log(number1, number2, typeof number1, typeof number2);
 //ALTRIMENTI
 //-il numero 2 e maggiore
 
-if (number1 > number2) {
+// if (number1 > number2) {
+//   console.log(`il numbero ${number1} e maggiore`);
+// } else {
+//   console.log(`il numbero ${number1} e maggiore`);
+// }
+
+if (number1 === number2) {
+  console.log("il numbero che hai inserito e uguale");
+} else if (number1 > number2) {
   console.log(`il numbero ${number1} e maggiore`);
+} else if (number2 > number1) {
+  console.log(`il numbero ${number2} e minore`);
 } else {
-  console.log(`il numbero ${number2} e maggiore `);
+  alert("insert a valid number");
 }
