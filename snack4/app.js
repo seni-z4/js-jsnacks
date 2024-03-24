@@ -22,3 +22,5 @@ if (invivati.includes(nome)) {
 } else {
   console.log("nn sei stato invitato");
 }
+
+console.log();
